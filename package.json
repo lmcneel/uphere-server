@@ -1,0 +1,31 @@
+{
+  "name": "uphere-server",
+  "version": "1.0.0",
+  "description": "- Express - GraphQL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lmcneel/uphere-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lmcneel/uphere-server/issues"
+  },
+  "homepage": "https://github.com/lmcneel/uphere-server#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.5.0",
+    "mongoose": "^5.12.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
