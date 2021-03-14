@@ -1,10 +1,8 @@
 import { buildSchema } from 'graphql';
+import query from './queries/index.mjs';
 
-// Construct a schema, using GraphQL schema language
 const schema = buildSchema(`
-  type Query {
-    hello: String
-  }
+    ${ query }
 `);
 
 export default schema;
